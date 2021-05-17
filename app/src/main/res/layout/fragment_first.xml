@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.motion.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/fragment_first_scene"
+    android:background="#0C3749"
+    tools:context=".FirstFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/chat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="CHAT"
+        android:textColor="#FF00FF"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/chat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="CHAT"
+        android:textColor="#00FFFF"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/chat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="CHAT"
+        android:textColor="@color/white"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/genius1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="GENIUS"
+        android:textColor="#FF00FF"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/genius2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="GENIUS"
+        android:textColor="#00FFFF"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/genius3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="GENIUS"
+        android:textColor="@color/white"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <ImageView
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+</android.support.constraint.motion.MotionLayout>
