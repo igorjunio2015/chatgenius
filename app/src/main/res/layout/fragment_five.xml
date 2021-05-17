@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#0C3749"
     app:layoutDescription="@xml/fragment_second_scene"
-    tools:context=".SecondFragment">
+    tools:context=".FifthFragment">
 
     <ImageView
         android:id="@+id/imageView10"
